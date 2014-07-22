@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @receipt.company_id %>
+</p>
+
+<p>
+  <strong>Recepit date:</strong>
+  <%= @receipt.recepit_date %>
+</p>
+
+<%= link_to 'Edit', edit_receipt_path(@receipt) %> |
+<%= link_to 'Back', receipts_path %>

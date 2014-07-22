@@ -32,7 +32,8 @@ gem 'spring',        group: :development
 # Use unicorn as the app server
 # gem 'unicorn'
 
-gem 'formtastic'
+# gem 'formtastic'
 gem 'rails4-autocomplete'
 gem 'jquery-ui-rails'
 gem 'cocoon'
+gem 'simple_form'

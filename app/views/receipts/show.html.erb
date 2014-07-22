@@ -6,8 +6,13 @@
 </p>
 
 <p>
-  <strong>Recepit date:</strong>
-  <%= @receipt.recepit_date %>
+  <strong>Receipt date:</strong>
+  <%= @receipt.receipt_date %>
+</p>
+
+<p>
+  <strong>Done:</strong>
+  <%= @receipt.done %>
 </p>
 
 <%= link_to 'Edit', edit_receipt_path(@receipt) %> |

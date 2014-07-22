@@ -16,8 +16,12 @@
     <%= f.number_field :company_id %>
   </div>
   <div class="field">
-    <%= f.label :recepit_date %><br>
-    <%= f.date_select :recepit_date %>
+    <%= f.label :receipt_date %><br>
+    <%= f.date_select :receipt_date %>
+  </div>
+  <div class="field">
+    <%= f.label :done %><br>
+    <%= f.check_box :done %>
   </div>
   <div class="actions">
     <%= f.submit %>

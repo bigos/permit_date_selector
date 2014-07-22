@@ -2,8 +2,10 @@
 
 one:
   company_id: 1
-  recepit_date: 2014-07-22
+  receipt_date: 2014-07-22
+  done: false
 
 two:
   company_id: 1
-  recepit_date: 2014-07-22
+  receipt_date: 2014-07-22
+  done: false

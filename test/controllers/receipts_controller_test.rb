@@ -18,7 +18,7 @@ class ReceiptsControllerTest < ActionController::TestCase
 
   test "should create receipt" do
     assert_difference('Receipt.count') do
-      post :create, receipt: { company_id: @receipt.company_id, recepit_date: @receipt.recepit_date }
+      post :create, receipt: { company_id: @receipt.company_id, done: @receipt.done, receipt_date: @receipt.receipt_date }
     end
 
     assert_redirected_to receipt_path(assigns(:receipt))
@@ -35,7 +35,7 @@ class ReceiptsControllerTest < ActionController::TestCase
   end
 
   test "should update receipt" do
-    patch :update, id: @receipt, receipt: { company_id: @receipt.company_id, recepit_date: @receipt.recepit_date }
+    patch :update, id: @receipt, receipt: { company_id: @receipt.company_id, done: @receipt.done, receipt_date: @receipt.receipt_date }
     assert_redirected_to receipt_path(assigns(:receipt))
   end
 
